@@ -26,4 +26,4 @@
 
 ## IPhone XR View
 
-![127 0 0 1_5500_index html(iPhone XR)](https://user-images.githubusercontent.com/50518538/152979339-564e4c54-3510-474a-82b6-8997c1c05ea3.png)
+<img src="https://user-images.githubusercontent.com/50518538/152979339-564e4c54-3510-474a-82b6-8997c1c05ea3.png" height="500"/>
