@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+html {
+  overflow: scroll;
+}
+
+/* Utilities */
+.large-font {
+  font-size: 3rem;
+}
+.custom-container {
+  margin: auto;
+  max-width: 1200px;
+}
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+.bg-green {
+  background: #93cb52;
+  color: #fff;
+}
+.custom-p-2 {
+  padding: 2rem;
+}
+.text-green {
+  color: #93cb52;
+}
+.m-heading {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+.m-custom-bottom {
+  margin-bottom: 0.5rem;
+}
+p-custom-y-1 {
+  padding: 1rem 0rem;
+}
+p-custom-y-2 {
+  padding: 2rem 0rem;
+}
+p-custom-y-3 {
+  padding: 3rem 0rem;
+}
+/* Navigation */
+#navigation {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 0.8rem;
+  background: #333;
+  color: #fff;
+}
+
+#navigation #menu {
+  list-style: none;
+}
+.text-primary {
+  color: #93cb52;
+}
+#navigation #menu {
+  display: flex;
+}
+#navigation #menu a {
+  color: #fff;
+  padding: 0.75rem;
+  margin: 0rem 0.5rem;
+  font-size: 1rem;
+}
+#navigation #menu a:hover {
+  background: #93cb52;
+  border-radius: 5px;
+}
+#logo {
+  font-size: 1.2rem;
+}
+#showcase {
+  height: 100vh;
+  background: #333;
+  color: #fff;
+  background: url("../img/showcase.jpg") no-repeat center center/cover;
+}
+#showcase .showcase-content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 1.5rem;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.15);
+}
+#showcase .showcase-content .large-font {
+  line-height: 2;
+  letter-spacing: 1.2rem;
+}
+#showcase .showcase-content p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+#showcase .showcase-content a {
+  margin-top: 1.2rem;
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background: #93cb52;
+  border-radius: 3px;
+  border: none;
+}
+#showcase .showcase-content a:hover {
+  background: #7ab436;
+}
+
+/* What Section */
+#what .content {
+  padding: 1rem 0.6rem;
+  text-align: center;
+}
+
+#what .content h1 {
+  font-size: 2rem;
+}
+#what .content .items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+#what .content .item {
+  flex: 1;
+  padding: 1.5rem;
+  line-height: 1.1;
+}
+#what .content .items i {
+  padding: 1rem;
+  background: #93cb52;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+#what .content .items h2 {
+  margin-bottom: 0.8rem;
+}
+#what .content .items p {
+  line-height: 1.2;
+}
+
+/* Who section */
+#who {
+  display: flex;
+  flex-direction: row;
+}
+#who #who-images {
+  background: url("../img/people.jpg") no-repeat center center/cover;
+}
+#who div {
+  flex: 1;
+}
+#who #content p {
+  margin: 0.75rem 0;
+}
+#who #content ul {
+  list-style: none;
+}
+
+/* clients */
+#clients {
+  background: #fff;
+  color: #333;
+}
+#clients .contents {
+  text-align: center;
+}
+#clients .contents h2 {
+  font-size: 2rem;
+  padding: 1rem 0rem;
+}
+#clients .items {
+  display: flex;
+  padding-bottom: 1rem;
+}
+
+#clients .items div {
+  width: 20%;
+}
+
+#clients .items img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+/* contact section */
+
+#contact {
+  display: flex;
+}
+
+#contact #contact-form,
+#contact .map {
+  flex: 1;
+  padding: 2rem;
+}
+#contact #contact-form .form-group,
+#contact #contact-form textarea {
+  margin-bottom: 0.5rem;
+}
+#contact #contact-form label {
+  display: block;
+}
+
+#contact #contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 0.4rem;
+}
+.btn {
+  display: block;
+  background: #7ab436;
+  color: #fff;
+  padding: 0.3rem;
+  border: none;
+}
+#main-footer {
+  background: #333;
+  color: #fff;
+  padding: 0.8rem;
+  text-align: center;
+}
